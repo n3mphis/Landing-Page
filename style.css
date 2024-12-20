@@ -10,7 +10,7 @@ body {
 
 .navbar {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     background-color: #1f2937;
 }
 
@@ -37,8 +37,8 @@ h1 {
     font-weight: 900;
 }
 
-h2 {
-    color: #1f2937;
+p {
+    color: lightgray;
 }
 
 .container-one {
@@ -73,9 +73,39 @@ h2 {
     color: white;
     font-weight: bold;
     padding: 12px;
+    margin-top: 12px;
 }
 
 .container-two {
+    display: flex;
     background-color: white;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+    padding-bottom: 120px;
+}
+
+.info-header {
+    color: #1f2937;
+    font-weight: 900;
+    font-size: 36px;
+    padding-top: 16px;
+    padding-bottom: 32px;
+}
+
+.boxes {
+    display: flex;
+    justify-content: center;
+    gap: 80px;
     text-align: center;
+}
+
+.box {
+    max-width: 200px;
+}
+
+.picture {
+    width: 200px;
+    height: 200px;
+    border-radius: 8px;
 }
