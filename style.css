@@ -15,7 +15,7 @@ body {
 }
 
 .logo {
-    width: 190px;
+    width: 150px;
 }
 
 a {
@@ -32,12 +32,22 @@ ul {
     font-weight: bold;
 }
 
+h1 {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+h2 {
+    color: #1f2937;
+}
+
 .container-one {
     display: flex;
     background-color: #1f2937;
     align-items: center;
     justify-content: center;
     padding-bottom: 100px;
+    padding-top: 80px;
 }
 
 .hero {
@@ -45,7 +55,7 @@ ul {
    color: white;
 }
 
-img {
+.img-box {
     display: block;
     max-width: 200px;
     max-height: 400px;
@@ -63,4 +73,9 @@ img {
     color: white;
     font-weight: bold;
     padding: 12px;
+}
+
+.container-two {
+    background-color: white;
+    text-align: center;
 }
