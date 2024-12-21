@@ -80,7 +80,7 @@ p {
     background-color: white;
     justify-content: center;
     align-items: center;
-    padding-top: 100px;
+    padding-top: 50px;
     padding-bottom: 120px;
 }
 
@@ -91,7 +91,7 @@ p {
     font-weight: 900;
     font-size: 36px;
     padding-top: 16px;
-    padding-bottom: 32px;
+    padding-bottom: 52px;
 }
 
 .boxes {
@@ -145,33 +145,54 @@ quote {
     justify-content: center;
     align-items: center;
     background-color: white;
-    padding-top: 80px;
-    padding-bottom: 80px;
+    height: 50vh;
 }
 
 .blue-box {
     background-color: #3882f6;
     border-radius: 20px;
     width: 900px;
-    height: 80px;
     color: white;
     margin: 50px;
 }
 
 .context {
     display: flex;
-    justify-content: center;
+    gap: 20vh;
+    padding: 5.5vh 15vh;
+    border-radius: 8px;
+}
+
+h4 {
+    font-weight: 900;
+    margin-bottom: 8px;
+}
+
+h4,
+p {
+    margin: 0;
+    color: white;
 }
 
 .btn {
+    display: flex;
     border: 2px solid white;
     background-color: #3882f6;
+    border-radius: 8px;
+    color: white;
+    border-color: white;
+    border-style: solid;
+    padding: 0px 64px;
+    cursor: pointer;
 }
 
 .last-button {
-    font-size: 12px;
+    font-size: 16px;
 }
 
 .footer {
     background-color: #1f2937;
+    padding: 45px;
+    color: white;
+    text-align: center;
 }
