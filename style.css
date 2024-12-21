@@ -77,7 +77,6 @@ p {
 }
 
 .container-two {
-    display: flex;
     background-color: white;
     justify-content: center;
     align-items: center;
@@ -86,6 +85,8 @@ p {
 }
 
 .info-header {
+    display: flex;
+    justify-content: center;
     color: #1f2937;
     font-weight: 900;
     font-size: 36px;
@@ -102,10 +103,75 @@ p {
 
 .box {
     max-width: 200px;
+    margin-bottom: 32px;
 }
 
 .picture {
     width: 200px;
     height: 200px;
     border-radius: 8px;
+    border: 3px solid #3882f6;
+}
+
+.text {
+    margin-top: 15px;
+}
+
+.quote {
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color:#1f2937;
+    flex-wrap: wrap;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    font-size: 36px;
+    font-style: italic;
+}
+
+quote {
+    max-width: 800px;
+}
+
+.quoted {
+    color: #1f2937;
+}
+
+.container-three {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.blue-box {
+    background-color: #3882f6;
+    border-radius: 20px;
+    width: 900px;
+    height: 80px;
+    color: white;
+    margin: 50px;
+}
+
+.context {
+    display: flex;
+    justify-content: center;
+}
+
+.btn {
+    border: 2px solid white;
+    background-color: #3882f6;
+}
+
+.last-button {
+    font-size: 12px;
+}
+
+.footer {
+    background-color: #1f2937;
 }
